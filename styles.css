@@ -1,8 +1,10 @@
-/* CLASS SLECTORS */
-.green {
-  color: green;
-}
-.red {
+/* INHERITANCE */
+body {
   color: red;
-  background: grey;
+}
+div {
+  color: blue;
+}
+h2 {
+  color: green;
 }
