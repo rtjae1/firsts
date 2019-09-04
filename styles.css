@@ -1,9 +1,8 @@
-/* ELEMENT SLECTORS */
-#title {
+/* CLASS SLECTORS */
+.green {
   color: green;
-  background: black;
 }
-#subheading {
+.red {
   color: red;
   background: grey;
 }
