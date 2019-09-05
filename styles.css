@@ -1,23 +1,35 @@
-/* 07:16.28 */
+/* 08:01:00 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: orange;
+}
+.banner {
+  background: url("./extra/images/pexelsLandscape.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./extra/images/pexelsLandscape.jpg") center/cover fixed no-repeat;
+}
+.colorzilla{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#627d4d+24,1f3b08+77;Olive+3D */
+background: rgb(98,125,77); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(98,125,77,1) 24%, rgba(31,59,8,1) 77%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(98,125,77,1) 24%,rgba(31,59,8,1) 77%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(98,125,77,1) 24%,rgba(31,59,8,1) 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#1f3b08',GradientType=1 ); /* IE6-9 */
 
-div{
-    background: blue;
-    margin: 10px;
-    color: white;
-}
-.none{
-    display: none;
-}
-.opacity{
-    opacity: 1;
-
-}
-.opacity-5{
-    opacity: 0.25;
-}
-.opacity-0{
-    opacity: 0;
-}
-.visibility{
-    visibility: hidden;
 }
