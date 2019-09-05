@@ -1,10 +1,8 @@
-/* INHERITANCE */
-body {
-  color: red;
+/* 4:27:00 */
+p {
+    color: red;
 }
-div {
-  color: blue;
-}
-h2 {
-  color: green;
+
+* {
+    color: blue;
 }
