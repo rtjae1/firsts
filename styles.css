@@ -1,18 +1,16 @@
-/* 4:40:32 */
+/* 5:34:00 */
 
-#first {
-  color: #808A9F;
-  background: #D7CEB2;
+* {
+  margin: 0;
 }
-#second {
-  color: #fff;
-  background: #00ff00;
+.navbar {
+  background: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
 }
-#three {
-  color: #0000ff;
-  background: #f15025;
-}
-#four {
-  color: #f234ad;
-  background: #222222;
+
+.banner{
+    background: red;
+    min-height: calc((100vh - 100px));
 }
