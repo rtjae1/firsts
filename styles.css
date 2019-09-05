@@ -1,16 +1,24 @@
-/* 5:34:00 */
-
-* {
-  margin: 0;
+/* 06:04:40 */
+a {
+  font-size: 40px;
+  text-decoration: none;
 }
-.navbar {
-  background: blue;
-  height: 100px;
-  color: white;
-  font-size: 3rem;
+body {
+  text-transform: uppercase;
 }
-
-.banner{
-    background: red;
-    min-height: calc((100vh - 100px));
+h1 {
+  text-transform: lowercase;
+  text-decoration: line-through;
+}
+.one {
+  line-height: 0.5em;
+}
+.two {
+  letter-spacing: 5px;
+  text-decoration: overline;
+  line-height: 2rem;
+}
+.three {
+  word-spacing: 20px;
+  text-decoration: underline;
 }
