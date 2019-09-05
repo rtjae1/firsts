@@ -1,20 +1,18 @@
-/* 4:37:00 */
+/* 4:40:32 */
 
 #first {
-  color: rgb(255, 0, 0);
-  background-color: rgb(0, 0, 0);
+  color: #808A9F;
+  background: #D7CEB2;
 }
-
 #second {
-  color: rgb(0, 255, 0);
-  background: rgb(255, 255, 255);
+  color: #fff;
+  background: #00ff00;
 }
-
 #three {
-    color: rgb(0, 0, 255);
-    background: rgb(100, 100, 100)
+  color: #0000ff;
+  background: #f15025;
 }
-
-body {
-    background: rgb(100, 34, 210);
+#four {
+  color: #f234ad;
+  background: #222222;
 }
