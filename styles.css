@@ -1,37 +1,48 @@
-/* 08:19:38 */
+/* 08:42:45 */
 
 /* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 } */
-button {
-  background: red;
-  font-size: 40px;
-  color: white;
-  position: fixed;
-  top: 0;
-  right: 0;
-}
 
-div {
-  border: 3px solid red;
+body {
   background: yellow;
-  margin-top: 40px;
-  /* position: relative; */
+}
+.banner {
+  background: blue;
+  border-radius: 20px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
 }
 
-.one {
-  background: blue;
+@media screen and (max-width: 576px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: yellow;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
 }
-.two {
-  background: green;
-  /* position: relative; */
-}
-.special {
-  background: lightcoral;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  right: 50%;
+@media screen and (max-width: 768px) {
+  body {
+    background: green;
+  }
+  .banner {
+    background: blue;
+  }
+  h1 {
+    color: red;
+    font-size: 60px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 }
