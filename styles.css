@@ -6,43 +6,32 @@
   box-sizing: border-box;
 } */
 
-body {
-  background: yellow;
+img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
 }
 .banner {
-  background: blue;
-  border-radius: 20px;
+  margin: 20px;
+  width: 80vw;
+  height: 70vh;
+  border: 5px solid red;
+  position: relative;
 }
-h1 {
-  color: white;
-  text-align: center;
-  text-decoration: underline;
-  text-transform: capitalize;
+.one {
+  top: 0;
+  left: 0;
+  position: relative;
+  z-index: 100;
+  /* z-index: 0; */
 }
-
-@media screen and (max-width: 576px) {
-  body {
-    background: red;
-  }
-  .banner {
-    background: yellow;
-  }
-  h1 {
-    color: black;
-    font-size: 60px;
-  }
+.two {
+  top: 10%;
+  left: 10%;
+  z-index: 1;
 }
-@media screen and (max-width: 768px) {
-  body {
-    background: green;
-  }
-  .banner {
-    background: blue;
-  }
-  h1 {
-    color: red;
-    font-size: 60px;
-    text-align: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+.three {
+  top: 20%;
+  left: 20%;
+  z-index: 2;
 }
