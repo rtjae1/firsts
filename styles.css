@@ -1,4 +1,4 @@
-/* 08:42:45 */
+/* 09:18:48 */
 
 /* * {
   margin: 0;
@@ -6,32 +6,56 @@
   box-sizing: border-box;
 } */
 
-img {
-  width: 100px;
-  height: 100px;
-  position: absolute;
+p::before {
+  content: "hello";
+  display: block;
+  background: black;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
 }
-.banner {
-  margin: 20px;
-  width: 80vw;
-  height: 70vh;
-  border: 5px solid red;
+p::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: green;
+}
+div {
+  width: 60vw;
+  margin: 100px auto;
   position: relative;
 }
-.one {
+img {
+  width: 100%;
+  display: block;
+}
+div::before {
+  content: "";
+  border: 2px solid grey;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -40px;
+  left: -40px;
+  z-index: -2;
+  transition: all 0.5s linear;
+}
+div::after {
+  content: "";
+  background: grey;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+  transition: all 0.5s linear;
+}
+div:hover::after,
+div:hover::before {
   top: 0;
   left: 0;
-  position: relative;
-  z-index: 100;
-  /* z-index: 0; */
-}
-.two {
-  top: 10%;
-  left: 10%;
-  z-index: 1;
-}
-.three {
-  top: 20%;
-  left: 20%;
-  z-index: 2;
 }
