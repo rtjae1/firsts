@@ -1,4 +1,4 @@
-/* 10:08:15 */
+/* 10:18:30 */
 
 /* * {
   margin: 0;
@@ -7,21 +7,28 @@
 } */
 
 div {
-  width: 150px;
-  height: 150px;
-  display: inline-block;
-}
-.one {
-  background: red;
-}
-.two {
-  background: green;
-}
-.three {
+  width: 100px;
+  height: 100px;
   background: blue;
-  transition: all 4s 5s;
+  color: white;
+  margin: 15px;
+  transition: all 1s;
 }
-.three:hover {
-  border-radius: 50%;
-  background: coral;
+div:hover {
+  transform: translateX(100px);
+}
+.ease {
+  transition-timing-function: ease;
+}
+.linear {
+  transition-timing-function: linear;
+}
+.ease-in {
+  transition-timing-function: ease-in;
+}
+.ease-out {
+  transition-timing-function: ease-out;
+}
+.ease-in-out {
+  transition-timing-function: ease-in-out;
 }
