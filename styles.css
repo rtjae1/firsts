@@ -1,4 +1,4 @@
-/* 10:47:40 */
+/* 11:06:20 */
 
 /* * {
   margin: 0;
@@ -6,40 +6,10 @@
   box-sizing: border-box;
 } */
 
-/* .heading{
-  color: #f15039;
+.fa-home{
+  color: green;
 }
-.text{
-  color: #32ff0e;
-}
-.main-text {
-  color: #1313fa;
-}
-.second-heading{
-  color: #f15039;
-} */
-
-:root {
-  --primaryColor: #1313fa;
-  --secondaryColor: #f15025;
-  --mainTransition: all 0.4s linear;
-}
-.heading {
-  color: var(--primaryColor);
-}
-.second-heading {
-  color: var(--primaryColor);
-  transition: var(--mainTransition);
-}
-.second-heading:hover {
-  color: var(--secondaryColor);
-}
-div {
-  --primaryRed: red;
-}
-.main-text {
-  color: var(--primaryRed);
-}
-.third-heading {
-  color: var(--primaryRed);
+.social-icon{
+  font-size: 4rem;
+  color: blue;
 }
